@@ -79,7 +79,7 @@ class Displays extends Component {
   }
 }
 
-Shows.propTypes = {
+Displays.propTypes = {
   programType: PropTypes.string.isRequired,
   bannerTitle: PropTypes.string.isRequired,
 };
