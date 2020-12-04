@@ -1,0 +1,36 @@
+.header {
+    padding: 14px 0;
+    z-index: 100;
+    position: relative;
+  }
+  
+  .logo {
+    color: #fff;
+    font-size: 24px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav-header {
+    float: right;
+  }
+  
+  .trial {
+    display: none;
+  }
+  
+  @media only screen and (min-width: 480px) {
+    .trial {
+      display: inline-block;
+    }
+  }
+  .nav-header > .nav-header-item {
+    vertical-align: sub; 
+    padding-left: 24px;
+    
+  }
+  
+  .nav-header a {
+    color: #fff;
+  }
+  
+ 

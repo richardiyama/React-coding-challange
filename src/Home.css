@@ -1,0 +1,32 @@
+.home {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .tile {
+    margin-right: 15px;
+  }
+  
+  .top-tile {
+    background-image: url('/placeholder.png');
+    background-position: center; 
+    width: 150px;
+    height: 220px;
+    background-color: #1e1e1e;
+    line-height: 200px;
+    text-align: center;
+    background-repeat: no-repeat;
+  }
+  .tile a {
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+  
+  
+  
+  .title-tile {
+    margin-top: 10px;
+  }
