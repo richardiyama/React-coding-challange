@@ -24,7 +24,7 @@ class Displays extends Component {
 
     let results = null;
     try {
-      const response = await fetch('/sample.json');
+      const response = await fetch('public/assets/sample.json');
       if (!response.ok) {
         this.setState({ error: true, loading: false });
         return results;
