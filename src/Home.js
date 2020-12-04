@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Banner from './Banner';
+import HeaderBanner from './HeaderBanner';
 import './Home.css';
 
 function Home()
@@ -9,7 +9,7 @@ function Home()
   
     return (
       <>
-        <Banner content="Popular Titles" />
+        <HeaderBanner content="Popular Titles" />
         <div className="wrapper home">
           <div className="tile">
             <Link to="/series">
