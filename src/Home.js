@@ -9,7 +9,7 @@ function Home()
   
     return (
       <>
-        <Banner content="Popular Titles" />
+        <HeaderBanner content="Popular Titles" />
         <div className="wrapper home">
           <div className="tile">
             <Link to="/series">
